@@ -198,7 +198,7 @@ class MultiprocessTaskRunner(BaseTaskRunner):
     async def _resolve_prefect_futures(self, expr: Any):
         """
         Resolves any `PrefectFuture`s in task arguments
-        before proceeding. Critical to ensuring the 
+        before proceeding. Critical to ensuring the
         task runner doesn't crash.
         """
 
